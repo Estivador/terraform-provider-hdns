@@ -39,8 +39,10 @@ func Provider() terraform.ResourceProvider {
 			"hdns_record": resourceRecord(),
 		},
 		DataSourcesMap: map[string]*schema.Resource{
-			"hdns_zone":   dataSourceHdnsZone(),
-			"hdns_record": dataSourceHdnsRecord(),
+			"hdns_zone":    dataSourceHdnsZone(),
+			"hdns_zones":   dataSourceHdnsZones(),
+			"hdns_record":  dataSourceHdnsRecord(),
+			"hdns_records": dataSourceHdnsRecords(),
 		},
 		ConfigureFunc: providerConfigure,
 	}
