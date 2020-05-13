@@ -1,0 +1,12 @@
+/.terraform
+/bin
+*.tf
+*.tfstate
+*.tfstate.backup
+/terraform-provider-hcloud
+/*.sh
+/*.json
+/*.yaml
+/*.log
+/_output
+.DS_Store
