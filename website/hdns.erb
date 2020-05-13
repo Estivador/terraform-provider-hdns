@@ -1,0 +1,39 @@
+<% wrap_layout :inner do %>
+  <% content_for :sidebar do %>
+    <div class="docs-sidebar hidden-print affix-top" role="complementary">
+      <ul class="nav docs-sidenav">
+        <li<%= sidebar_current("docs-home") %>>
+          <a href="/docs/providers/index.html">All Providers</a>
+	</li>
+
+	<li<%= sidebar_current("docs-hdns-index") %>>
+          <a href="/docs/providers/hdns/index.html">Hetzner DNS Provider</a>
+	</li>
+	<li<%= sidebar_current("docs-hdns-data-source") %>>
+	<a href="#">Data Sources</a>
+          <ul class="nav nav-visible">
+            <li<%= sidebar_current("docs-hdns-datasource-zone") %>>
+               <a href="/docs/providers/hdns/d/zone.html">hdns_zone</a>
+            </li>
+            <li<%= sidebar_current("docs-hdns-datasource-record") %>>
+               <a href="/docs/providers/hdns/d/record.html">hdns_record</a>
+	    </li>
+	  </ul>
+        </li>
+	<li<%= sidebar_current("docs-hdns-resource") %>>
+	  <a href="#">Resources</a>
+          <ul class="nav nav-visible">
+            <li<%= sidebar_current("docs-hdns-resource-zone") %>>
+              <a href="/docs/providers/hdns/r/zone.html">hdns_zone</a>
+            </li>
+            <li<%= sidebar_current("docs-hdns-resource-record") %>>
+              <a href="/docs/providers/hdns/r/record.html">hdns_record</a>
+	    </li>
+	  </ul>
+        </li>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= yield %>
+<% end %>
