@@ -8,6 +8,5 @@ import (
 )
 
 func dataSourceHdnsZone() *schema.Resource {
-	return &schema.Resource{
-	}
+	return &schema.Resource{}
 }

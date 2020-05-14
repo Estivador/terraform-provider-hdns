@@ -1,4 +1,4 @@
-package hcloud
+package hdns
 
 import (
 	"errors"

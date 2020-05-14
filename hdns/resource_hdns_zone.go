@@ -12,6 +12,5 @@ import (
 )
 
 func resourceZone() *schema.Resource {
-	return &schema.Resource{
-	}
+	return &schema.Resource{}
 }

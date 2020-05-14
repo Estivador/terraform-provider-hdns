@@ -8,6 +8,5 @@ import (
 )
 
 func dataSourceHdnsRecord() *schema.Resource {
-	return &schema.Resource{
-	}
+	return &schema.Resource{}
 }
