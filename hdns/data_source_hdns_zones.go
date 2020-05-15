@@ -1,8 +1,8 @@
 package hdns
 
 import (
-	"context"
-	"fmt"
+	//	"context"
+	//	"fmt"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
