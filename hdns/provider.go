@@ -7,6 +7,7 @@ import (
 	"github.com/hashicorp/logutils"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/logging"
 
+	"github.com/Estivador/hdns-go/hdns"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
