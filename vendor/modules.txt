@@ -6,6 +6,10 @@ cloud.google.com/go/internal/optional
 cloud.google.com/go/internal/trace
 cloud.google.com/go/internal/version
 cloud.google.com/go/storage
+# github.com/Estivador/hdns-go v0.0.0-20200516232141-e396e01366cf
+## explicit
+github.com/Estivador/hdns-go/hdns
+github.com/Estivador/hdns-go/hdns/schema
 # github.com/agext/levenshtein v1.2.2
 github.com/agext/levenshtein
 # github.com/apparentlymart/go-cidr v1.0.1

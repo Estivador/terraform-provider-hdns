@@ -1,6 +1,7 @@
 module github.com/Estivador/terraform-provider-hdns
 
 require (
+	github.com/Estivador/hdns-go v0.0.0-20200516232141-e396e01366cf
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/logutils v1.0.0
 	github.com/hashicorp/terraform-plugin-sdk v1.8.0
